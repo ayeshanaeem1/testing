@@ -1,0 +1,52 @@
+
+/* unvisited link */
+a:link{
+    color: red;
+    background-color: black;
+}
+
+/* visited link */
+a:visited{
+    color: rgb(0, 243, 81);
+    background-color: rgb(255, 0, 191);
+}
+
+/* mouse over link */
+a:hover{
+    color: hotpink;
+    background-color: khaki;
+    border: 2px solid black;
+}
+
+/* selected link */
+a:active{
+    color: blue;
+}
+.red-input:focus{
+    background: rgb(2, 255, 99);
+    color: red;
+}
+.flet::first-letter{
+    font-size: 200px;
+    color:rgb(30, 255, 0);
+}
+.fline::first-line{
+    background-color: gold;
+}
+.fc.fc:first-child{background-color: darkorchid;}
+
+.bef::before{content: "Read this:";}
+
+.aft::after{
+    content: "learn"
+}
+.a{
+    text-decoration:solid rgb(23, 255, 2) underline;
+}
+.b{
+    text-indent: 50px;
+}
+
+
+
+
